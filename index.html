@@ -1,75 +1,70 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        main {
-            padding: 2rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        section {
-            background: #fff;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        section h2 {
-            color: #333;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #333;
-            color: #fff;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Kelyan Hangard's Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Welcome to my personal website! Here you can find information about my projects, skills, and interests.</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
+        <h1>Kelyan Hangard</h1>
+        <nav>
             <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Data Analytiks</h3>
+                <p>Description of the project...</p>
+                <a href="https://www.datanalytiks.com">Visit Data Analytiks Website</a>
+            </article>
+            <article>
+                <h3>Non-linear Air Pollution Analysis</h3>
+                <p>Description of the project...</p>
+                <a href="https://github.com">Code</a>
+            </article>
+            <!-- Add more project articles here -->
+        </section>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <article>
+                <h3>Robert West</h3>
+                <p>Description of the recommendation...</p>
+                <a href="#">Letter</a>
+            </article>
+            <!-- Add more recommendation articles here -->
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Science</li>
+                <li>Python, R, SQL</li>
+                <li>Project Management</li>
+                <!-- Add more skills here -->
             </ul>
         </section>
-        <section>
+
+        <section id="contact">
             <h2>Contact</h2>
-            <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>Phone: +33788371062</p>
+            <p>Email: kelyan.hangard@outlook.com</p>
+            <p><a href="https://www.linkedin.com/in/kelyan-hangard/">LinkedIn</a></p>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 Kelyan Hangard</p>
     </footer>
 </body>
 </html>

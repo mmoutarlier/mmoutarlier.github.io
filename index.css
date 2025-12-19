@@ -3252,21 +3252,34 @@
 ========================================================= */
 
 /* Target buttons only in skills + contact sections */
+/* =========================================================
+   UNIFIED BUTTON STYLE
+   (Projects · Skills · Contact)
+========================================================= */
+
+/* Project buttons */
+.project-section .u-btn,
+
+/* Skills buttons */
 #skills .u-btn,
+
+/* Contact buttons */
 #contact .u-btn {
   background-color: transparent !important;
   color: #222 !important;
   border: 1.5px solid #222 !important;
-  border-radius: 999px; /* pill shape */
+  border-radius: 999px;
   padding: 8px 18px !important;
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.5px;
   text-transform: none;
+  box-shadow: none !important;
   transition: all 0.2s ease;
 }
 
-/* Hover effect (subtle, premium) */
+/* Hover effect */
+.project-section .u-btn:hover,
 #skills .u-btn:hover,
 #contact .u-btn:hover {
   background-color: #222 !important;
@@ -3274,10 +3287,5 @@
   transform: translateY(-1px);
 }
 
-/* Remove heavy Nicepage shadows */
-#skills .u-btn,
-#contact .u-btn {
-  box-shadow: none !important;
-}
 
 

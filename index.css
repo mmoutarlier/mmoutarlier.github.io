@@ -3226,4 +3226,45 @@
   background-color: white;
 }
 
+/* =========================================================
+   SKILLS SECTION
+========================================================= */
+
+.skills-section {
+  background-color: #f9f9f9;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.skills-block h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.skills-block p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .skills-block h3 {
+    text-align: center;
+  }
+
+  .skills-block p {
+    text-align: center;
+  }
+}
 

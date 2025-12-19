@@ -3214,10 +3214,6 @@
   font-size: 0.9rem;
 }
 
-/* Alternating background */
-.project-section:nth-of-type(even) {
-  background-color: #f9f9f9;
-}
 
 /* Mobile */
 @media (max-width: 768px) {

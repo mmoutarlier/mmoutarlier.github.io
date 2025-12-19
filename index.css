@@ -3245,5 +3245,39 @@
 #projects {
   background-color: #f9f9f9;
 }
+ 
+
+/* =========================================================
+   CLEAN, PROFESSIONAL BUTTON STYLE (Skills & Contact)
+========================================================= */
+
+/* Target buttons only in skills + contact sections */
+#skills .u-btn,
+#contact .u-btn {
+  background-color: transparent !important;
+  color: #222 !important;
+  border: 1.5px solid #222 !important;
+  border-radius: 999px; /* pill shape */
+  padding: 8px 18px !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: none;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect (subtle, premium) */
+#skills .u-btn:hover,
+#contact .u-btn:hover {
+  background-color: #222 !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+/* Remove heavy Nicepage shadows */
+#skills .u-btn,
+#contact .u-btn {
+  box-shadow: none !important;
+}
 
 

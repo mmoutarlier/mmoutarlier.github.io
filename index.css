@@ -2912,6 +2912,12 @@
 /* ------------------------------
    GLOBAL CLEANUP OVERRIDES
 --------------------------------*/
+/* =========================================================
+   CUSTOM OVERRIDES – SAFE TO EDIT
+   (Do NOT edit Nicepage-generated CSS above)
+========================================================= */
+
+/* ---------- Global readability ---------- */
 
 .u-text {
   line-height: 1.8;
@@ -2922,8 +2928,94 @@
   max-width: 1140px;
 }
 
-/* Prevent content from sticking to edges */
 .u-container-layout {
   padding-left: 20px !important;
   padding-right: 20px !important;
 }
+
+/* ---------- Custom project sections ---------- */
+
+.u-section-NEW1,
+.u-section-NEW2,
+.u-section-NEW3,
+.u-section-NEW4 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+/* Section titles */
+.u-section-NEW1 h2,
+.u-section-NEW2 h2,
+.u-section-NEW3 h2,
+.u-section-NEW4 h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Section text */
+.u-section-NEW1 p,
+.u-section-NEW2 p,
+.u-section-NEW3 p,
+.u-section-NEW4 p {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Images */
+.u-section-NEW1 img,
+.u-section-NEW2 img,
+.u-section-NEW3 img,
+.u-section-NEW4 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+/* Buttons */
+.u-section-NEW1 .u-btn,
+.u-section-NEW2 .u-btn,
+.u-section-NEW3 .u-btn,
+.u-section-NEW4 .u-btn {
+  margin: 12px 8px 0 0;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+/* Alternate background for visual separation */
+.u-section-NEW2,
+.u-section-NEW4 {
+  background-color: #f9f9f9;
+}
+
+/* ---------- Mobile improvements ---------- */
+
+@media (max-width: 768px) {
+  .u-section-NEW1,
+  .u-section-NEW2,
+  .u-section-NEW3,
+  .u-section-NEW4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .u-section-NEW1 h2,
+  .u-section-NEW2 h2,
+  .u-section-NEW3 h2,
+  .u-section-NEW4 h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .u-section-NEW1 p,
+  .u-section-NEW2 p,
+  .u-section-NEW3 p,
+  .u-section-NEW4 p {
+    text-align: left;
+  }
+}
+
+
+

@@ -3017,5 +3017,163 @@
   }
 }
 
+/* =========================================================
+   GLOBAL PROJECT LAYOUT – ALL PROJECT SECTIONS
+========================================================= */
+
+.u-section-NEW1,
+.u-section-NEW2,
+.u-section-NEW3,
+.u-section-NEW4,
+.u-section-2,
+.u-section-3,
+.u-section-4,
+.u-section-5,
+.u-section-6,
+.u-section-8,
+.u-section-9,
+.u-section-10,
+.u-section-11,
+.u-section-12 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+/* ---------- Titles ---------- */
+
+.u-section-NEW1 h2,
+.u-section-NEW2 h2,
+.u-section-NEW3 h2,
+.u-section-NEW4 h2,
+.u-section-2 h2,
+.u-section-3 h2,
+.u-section-4 h2,
+.u-section-5 h2,
+.u-section-6 h2,
+.u-section-8 h2,
+.u-section-9 h2,
+.u-section-10 h2,
+.u-section-11 h2,
+.u-section-12 h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* ---------- Text ---------- */
+
+.u-section-NEW1 p,
+.u-section-NEW2 p,
+.u-section-NEW3 p,
+.u-section-NEW4 p,
+.u-section-2 p,
+.u-section-3 p,
+.u-section-4 p,
+.u-section-5 p,
+.u-section-6 p,
+.u-section-8 p,
+.u-section-9 p,
+.u-section-10 p,
+.u-section-11 p,
+.u-section-12 p {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Images ---------- */
+
+.u-section-NEW1 img,
+.u-section-NEW2 img,
+.u-section-NEW3 img,
+.u-section-NEW4 img,
+.u-section-2 img,
+.u-section-3 img,
+.u-section-4 img,
+.u-section-5 img,
+.u-section-6 img,
+.u-section-8 img,
+.u-section-9 img,
+.u-section-10 img,
+.u-section-11 img,
+.u-section-12 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+/* ---------- Buttons ---------- */
+
+.u-section-NEW1 .u-btn,
+.u-section-NEW2 .u-btn,
+.u-section-NEW3 .u-btn,
+.u-section-NEW4 .u-btn,
+.u-section-2 .u-btn,
+.u-section-3 .u-btn,
+.u-section-4 .u-btn,
+.u-section-5 .u-btn,
+.u-section-6 .u-btn,
+.u-section-8 .u-btn,
+.u-section-9 .u-btn,
+.u-section-10 .u-btn,
+.u-section-11 .u-btn,
+.u-section-12 .u-btn {
+  margin: 12px 8px 0 0;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+/* ---------- Alternating backgrounds ---------- */
+
+.u-section-NEW2,
+.u-section-NEW4,
+.u-section-3,
+.u-section-5,
+.u-section-8,
+.u-section-10,
+.u-section-12 {
+  background-color: #f9f9f9;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  .u-section-NEW1,
+  .u-section-NEW2,
+  .u-section-NEW3,
+  .u-section-NEW4,
+  .u-section-2,
+  .u-section-3,
+  .u-section-4,
+  .u-section-5,
+  .u-section-6,
+  .u-section-8,
+  .u-section-9,
+  .u-section-10,
+  .u-section-11,
+  .u-section-12 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .u-section-NEW1 h2,
+  .u-section-NEW2 h2,
+  .u-section-NEW3 h2,
+  .u-section-NEW4 h2,
+  .u-section-2 h2,
+  .u-section-3 h2,
+  .u-section-4 h2,
+  .u-section-5 h2,
+  .u-section-6 h2,
+  .u-section-8 h2,
+  .u-section-9 h2,
+  .u-section-10 h2,
+  .u-section-11 h2,
+  .u-section-12 h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
 
 

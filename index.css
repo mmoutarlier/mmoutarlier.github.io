@@ -3303,48 +3303,53 @@
    (Projects / Skills / Contact)
 ========================================================= */
 
-/* Container position */
-.u-buttons-fixed {
-  right: 24px !important;
+/* =========================================================
+   CLEAN TOP NAV (Projects / Skills / Contact)
+========================================================= */
+
+.custom-nav {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Buttons */
-.u-buttons-fixed .u-btn {
-  width: 110px !important;          /* 👈 force same width */
-  height: 34px !important;          /* 👈 force same height */
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+.custom-nav li {
+  position: relative;
+}
 
-  background-color: rgba(255, 255, 255, 0.9) !important;
-  color: #222 !important;
-  border: 1px solid #ddd !important;
-  border-radius: 999px !important;
-
-  font-size: 0.75rem !important;
+.custom-nav a {
+  text-decoration: none;
+  color: #222;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.4px;
-  text-transform: none !important;
-
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
-  margin: 8px 0 !important;
-  padding: 0 !important;
-
-  transition: all 0.2s ease;
+  padding: 6px 0;
+  transition: color 0.2s ease;
 }
 
-/* Hover */
-.u-buttons-fixed .u-btn:hover {
-  background-color: #222 !important;
-  color: #fff !important;
-  border-color: #222 !important;
+/* Hover underline animation */
+.custom-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1.5px;
+  background-color: #222;
+  transition: width 0.25s ease;
 }
 
-/* Active (current section) */
-.u-buttons-fixed .u-btn.u-btn-active {
-  background-color: #222 !important;
-  color: #fff !important;
+.custom-nav a:hover::after {
+  width: 100%;
 }
+
+/* Active section (optional manual class) */
+.custom-nav a.active::after {
+  width: 100%;
+}
+
 
 
 

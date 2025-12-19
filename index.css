@@ -3175,5 +3175,61 @@
     text-align: center;
   }
 }
+/* =========================================================
+   UNIFIED PROJECT LAYOUT (ALL PROJECTS)
+========================================================= */
+
+.project-section {
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
+}
+
+/* Titles */
+.project-section h2 {
+  font-size: 2.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+}
+
+/* Text */
+.project-section p {
+  max-width: 650px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  line-height: 1.8;
+}
+
+/* Images */
+.project-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+/* Buttons */
+.project-section .u-btn {
+  margin: 12px 8px 0 0;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+/* Alternating background */
+.project-section:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .project-section {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .project-section h2 {
+    font-size: 1.6rem !important;
+    text-align: center;
+  }
+}
 
 
